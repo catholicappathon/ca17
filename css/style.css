@@ -55,6 +55,7 @@ a:hover {
     font-size: 16px;
     line-height: none;
     border-radius: 4px;
+    font-family: 'gothamRdMedium';
 }
 .btn-red {
 	background-color: #df4e5e;

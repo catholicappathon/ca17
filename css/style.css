@@ -4,20 +4,26 @@
 #facb1b = yellow
 */
 body {
-	font-family: 'dosis', sans-serif;
+	font-family: 'gothamRdLight', sans-serif;
     color: #404142;
-    font-size: 16px;
+    font-size: 14px;
 	letter-spacing: 0.8px;
 }
 /*h1, h2 {
     font-family: 'gothamRdBold', sans-serif;
 }
-h3, h4 {
-    font-family: 'gothamRdMedium', sans-serif;
-}
 h5, h6 {
     font-family: 'gothamRdBook', sans-serif;
 }*/
+h1 {
+    font-family: 'gothamRdBold', sans-serif;
+}
+h2 {
+    font-family: 'gothamRdBold', sans-serif;
+}
+h3, h4 {
+    font-family: 'gothamRdMedium', sans-serif;
+}
 ul {
 	margin: 0;
 	padding: 0;
@@ -133,19 +139,25 @@ a:hover {
 }
 
 .hero-header h1 {
-	margin: 1em 0 0 0;
+	margin: 25px 0 0 0;
 }
 .hero-header h4 {
 	font-weight: normal;
 	opacity: 0.6;
     letter-spacing: 1px;
-    margin: 2em 0;
+    margin: 0;
+}
+.hero-header h3 {
+    margin: 25px 0 0 0;
+}
+.hero-header h4{
+    margin: 25px 0 25px 0;
 }
 .hero-header .logo {
 	max-width: 180px;
 }
 .hero-header .btn {
-	margin-top: 3em;
+	margin-top: 0;
 }
 .hero-header .rocket {
 	max-width: 100%;
@@ -228,6 +240,9 @@ a span.ti-twitter-alt {
 	font-size: 4em;
 	color: #df4e5e;
     font-weight: 100;
+}
+.tickets .prize {
+    padding: 25px 0;
 }
 .tickets .price sup {
 	font-size: 0.4em;
